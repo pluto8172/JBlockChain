@@ -22,7 +22,7 @@ __这个很简单, 直接像运行普通的 SpringBoot 项目一样运行就好�
 首先依次启动 node1 - node3 3个节点，由于在启动的时候会自动链接初始化的节点，各自连接成为一个 P2P 的网络，所以被链接的节点没有启动的时候会抛出网络异常，不用管它，等其他节点启动好了之后又会自动连接上的。
 
 你可以使用 PostMan 工具对上面的 RESTFUL api 进行一一测试。不过从 v1.2 之后我在项目中集成了 swagger2，所以现在更好的测试是直接使用 swagger 
-的 api ui 页面进行测试： http://localhost:8081/swagger-ui.html
+的 api ui 页面进行测试： http://121.40.234.148:9891/swagger-ui.html
 
  ![](imgs/api.png)
  
